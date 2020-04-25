@@ -1,0 +1,168 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  font-size: 40px;
+}
+body{
+  margin:0;
+}
+header{
+  font-size: 1rem;
+  padding-top: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 4.25rem;
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 2rem;
+}
+h1{
+  
+  margin: 0;
+  font-size: 1rem;
+}
+.index{
+  margin-top: 0.3rem;
+  text-align: center;
+  height: 80px;
+  font-size: 0.4rem;
+}
+.index-ul{
+  display: flex;
+  justify-content:center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  list-style: none;
+}
+.index-ul li{
+  margin:0 1.2rem 0 1.2rem;
+  float: left;
+}
+.index-ul a{
+  color: black;
+}
+.menuBtn{
+  display: none;
+}
+
+
+.list-nav{
+  width: 350px;
+  height: 900px;
+  padding-top: 60px;
+  background-color: darkblue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  transform: translate(350px);
+  transition: all .5s;
+  opacity: 0.9;
+  
+}
+.open{
+  transform: translateZ(0);
+}
+.list-nav li{
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.list-nav a{
+  color: white;
+}
+
+.list-ul{
+  list-style: none;
+  margin: 0;
+  padding:20px 100px 40px 80px;
+  margin: auto;
+}
+main{
+  font-size: 2.5rem;
+  height: 30rem;
+  background-color: rgb(255, 255, 255);
+  width:100%;
+  padding:0;  
+  text-align: center;
+}
+h3,h4,h5{
+  border-radius:1.35rem ;
+  background-color: rgb(231, 231, 231);
+  margin:auto;
+  padding-left: 20px ;
+  padding-top: 10px;
+  font-size: 1rem;
+  width: 60%;
+  height: 2.7rem;
+  text-align: center;
+}
+p{
+  font-size: 0.4rem;
+  font-weight: 100;
+  padding-bottom:0.3rem;
+  margin: auto;
+}
+.about{
+  padding: 0.25rem 0.5rem;
+  font-size: 0.5rem;
+  height: 12.5rem;
+}
+.works{
+  font-size: 0.5rem;
+  height: 7.5rem;
+}
+.page-top{
+  display: none;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  text-align: center;
+  padding-bottom: 4px;
+  border-top-left-radius:30px ;
+  background-color: rgb(0, 0, 0);
+}
+.fa-chevron-up{
+  color: white;
+}
+footer{
+  height:5rem ;
+  width: 100%;
+  background-color: rgb(74, 99, 175);
+  text-align: center;
+  line-height: 5rem;
+}
+.btn{
+  
+  color: rgb(252, 252, 252);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 25px;
+  margin-left: 20px;
+  opacity: 0.85;
+}
+.t-btn{
+  background-color: rgb(2, 159, 221);
+}
+.i-btn{
+  background-color: rgb(206, 7, 106);
+}
+.l-btn{
+  background-color: rgb(13, 179, 7);
+}
+.btn:hover{
+  opacity: 1.0;
+}
