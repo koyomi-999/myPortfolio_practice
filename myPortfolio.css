@@ -85,7 +85,7 @@ h1{
 }
 main{
   font-size: 2.5rem;
-  height: 30rem;
+  height: 80rem;
   background-color: rgb(255, 255, 255);
   width:100%;
   padding:0;  
@@ -111,11 +111,15 @@ p{
 .about{
   padding: 0.25rem 0.5rem;
   font-size: 0.5rem;
-  height: 12.5rem;
+  height: 15rem;
 }
 .works{
   font-size: 0.5rem;
-  height: 7.5rem;
+  height: 15rem;
+}
+.contact{
+  font-size: 0.5rem;
+  height: 25rem;
 }
 .page-top{
   display: none;
